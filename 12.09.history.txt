@@ -1,0 +1,37 @@
+copy con 12.09.txt
+Шуйская
+Чернышева
+Цюй
+Хун
+Соловьева
+Рубанова
+Романенко
+Пылаева
+Мелентьев
+Малыгина
+Косарев
+Корнилова
+Казаков
+Иргизцева
+Заец
+Жилевич
+Голодяева
+Беленова
+Бакаева
+SORT 12.09.txt
+COPY 12.09.txt 12.09.2.txt
+SORT 12.09.2.txt
+
+SORT 12.09.2.txt > 12.09.3.txt
+TYPE 12.09.3.txt
+doskey /history
+doskey /history 12.093.txt>12.09.history
+ TYPE 12.09.history
+TYPE 12.09.3.txt
+TYPE 12.09.h
+doskey /history 12.09.3.txt>12.09.03.history.txt
+TYPE 12.09.history.txt
+TYPE 12.09.03.history.txt
+doskey /history > 12.09.history.txt
+TYPE 12.09.history.txt
+doskey /history > 12.09.history.txt
